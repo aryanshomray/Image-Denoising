@@ -250,7 +250,8 @@ class Training:
         self.Network.train()
         print('Loaded!!')
 
-a = Training()
-a.train()
-a.loading()
-a.saving()
+if __name__=='__main__':
+    a = Training()
+    a.train()
+    a.loading()
+    a.saving()
